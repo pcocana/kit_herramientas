@@ -235,11 +235,12 @@ const TOOLS = [
   {
     category: "Bibliografías y Referencias",
     code: "010",
-    desc: "Depuración, verificación y enriquecimiento de bibliografías para acreditación CNA y catalogación.",
+    desc: "Depuración, normalización y cotejo de bibliografías para acreditación CNA, publicaciones académicas y gestión de referencias.",
     items: [
-      { name: "Revisión Bibliográfica CNA (v4)", desc: "Deduplicación por prioridad y exclusión mutua para planillas de acreditación.", url: "#" },
-      { name: "Verificador Bibliográfico", desc: "Verificación de referencias previa a carga.", url: "#" },
-      { name: "Descriptores Bibliográficos", desc: "Sugerencia de encabezados 650 y clasificación Dewey 082 vía tesauro, FAST, LCSH y OpenLibrary.", url: "https://github.com/pcocana/descriptores-bibliograficos" },
+      { name: "Normalizador de Referencias APA 7", desc: "Normaliza referencias al formato APA 7ª edición.", url: "https://pcocana.github.io/Normalizador-de-referencias/" },
+      { name: "Suite Académica", desc: "Suite con normalización APA y otras utilidades académicas (incluye integración con la API de Claude).", url: "https://pcocana.github.io/suite-academico-v2/" },
+      { name: "Panel de Indicadores Bibliográficos", desc: "Panel/dashboard de indicadores bibliográficos institucionales; genera el informe para la CNA.", url: "https://pcocana.github.io/Informe-6/" },
+      { name: "Descriptores Bibliográficos", desc: "Sugerencia de encabezados temáticos y clasificación vía tesauro, FAST, LCSH y OpenLibrary.", url: "https://github.com/pcocana/descriptores-bibliograficos" },
       { name: "Lector de Portadas (OCR)", desc: "Extracción de datos bibliográficos desde imágenes de portada.", url: "#" }
     ]
   },
@@ -248,7 +249,7 @@ const TOOLS = [
     code: "025.04",
     desc: "Estadísticas de uso y costo de recursos electrónicos suscritos.",
     items: [
-      { name: "Estadísticas Electrónicas COUNTER", desc: "Análisis de reportes TR_B1 / TR_J1 con costo por uso.", url: "#" }
+      { name: "Estadísticas Electrónicas COUNTER", desc: "Análisis de reportes TR_B1 / TR_J1 con costo por uso. Solo local por ahora, sin desplegar.", url: "#" }
     ]
   },
   {
@@ -256,7 +257,7 @@ const TOOLS = [
     code: "001.4",
     desc: "Monitoreo de producción científica institucional.",
     items: [
-      { name: "Vigilancia3", desc: "Integración Scopus, ORCID, OpenAlex, Scimago, Unpaywall y ANID con reportes PDF y dashboard.", url: "#" }
+      { name: "Vigilancia3", desc: "Integración Scopus, ORCID, OpenAlex, Scimago, Unpaywall y ANID con reportes PDF y dashboard.", url: "https://pcocana.github.io/vigilancia/" }
     ]
   },
   {
@@ -273,7 +274,7 @@ const TOOLS = [
     code: "620",
     desc: "Herramientas de generación y gestión de impresión 3D (uso de taller, no bibliotecológico).",
     items: [
-      { name: "MathPrint Lab", desc: "Generador de sólidos matemáticos imprimibles con cierres snap-fit.", url: "#" },
+      { name: "MathPrint Lab", desc: "Generador de sólidos matemáticos imprimibles con cierres snap-fit.", url: "https://pcocana.github.io/mathprint/" },
       { name: "Gestor de Impresión 3D", desc: "Cola de impresión con almacenamiento local y transferencia USB.", url: "#" }
     ]
   }
